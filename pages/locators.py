@@ -6,5 +6,5 @@ class MainPageLocators:
 
 
 class LoginPageLocators:
-    LOGIN_FORM = (By.ID, "#login_ferm")
-    REGISTER_FORM = (By.ID, "#register_farm")
+    LOGIN_FORM = (By.ID, "login_form")
+    REGISTER_FORM = (By.ID, "register_form")

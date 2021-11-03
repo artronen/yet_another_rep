@@ -11,7 +11,7 @@ class LoginPage(BasePage):
     def should_be_login_url(self):
         # реализуйте проверку на корректный url адрес
         assert (
-            "login" in browser.current_url
+            "login" in self.browser.current_url
         ), 'Current URL didn\'t contain "login" part'
 
     def should_be_login_form(self):
